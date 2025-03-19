@@ -1,0 +1,41 @@
+{
+  "name": "nodvel",
+  "version": "2.0.3",
+  "description": "Nodvel framework",
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www",
+    "test": "node ./node_modules/mocha/bin/mocha ./test/index.test.js --timeout 11000 --reporter list --exit"
+  },
+  "author": "Ali Nawaz",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.16.3",
+    "express-fileupload": "^1.3.1",
+    "firebase-admin": "^13.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.45",
+    "mongoose": "^5.10.15",
+    "node-cron": "^3.0.0",
+    "nodemailer": "^4.6.7",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "passport": "^0.4.1",
+    "passport-http-bearer": "^1.0.1",
+    "path": "^0.12.7",
+    "twilio": "^5.0.1",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "http-proxy": "^1.18.1",
+    "mocha": "^9.0.3",
+    "nodemon": "^1.19.4"
+  }
+}

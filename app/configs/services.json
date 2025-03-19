@@ -1,0 +1,44 @@
+{
+    "auth": {
+        "name": "AuthService",
+        "alias": "auth",
+        "link": "app.services.AuthService",
+        "enabled": true
+    },
+    "mongo": {
+        "name": "MongoService",
+        "link": "app.services.MongoService",
+        "enabled": true
+    },
+    "cron": {
+        "name": "SchedulerService",
+        "link": "app.services.SchedulerService",
+        "enabled": true
+    },
+    "logger": {
+        "alias": "logger",
+        "name": "LoggerService",
+        "link": "app.services.LoggerService",
+        "enabled": true
+    },
+    "mail": {
+        "name": "MailService",
+        "link": "app.services.MailService",
+        "enabled": true
+    },
+    "permissions": {
+        "name": "PermissionService",
+        "link": "app.services.PermissionService",
+        "enabled": true
+    },
+    "notifications": {
+        "name": "NotificationService",
+        "link": "app.services.NotificationService",
+        "enabled": true
+    },
+    "firebase": {
+        "name": "firebase",
+        "link": "app.services.FirebaseService",
+        "enabled": true
+    }
+}

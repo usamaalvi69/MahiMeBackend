@@ -1,0 +1,12 @@
+{
+    "arrays": {
+        "name": "Arrays",
+        "link": "app.validations.iterations.Arrays",
+        "enabled": true
+    },
+    "numbers": {
+        "name": "Numbers",
+        "link": "app.validations.Numbers",
+        "enabled": true
+    }
+}

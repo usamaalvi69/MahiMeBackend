@@ -1,0 +1,13 @@
+{
+    "default": { "value" : "dev" },
+    "dev": {
+        "driver": { "get": "DB", "value": "mongo" },
+        "host": { "get": "DB_HOST", "value": "mongo" },
+        "port": { "get": "DB_PORT", "value": "27017" },
+        "name": { "get": "DB_NAME", "value": "nodvel" },
+        "username": { "get": "DB_USERNAME", "value": "root" },
+        "password": { "get": "DB_PASSWORD", "value": "root" },
+        "auth": { "get": "DB_AUTH", "value": "default" },
+        "ssl": { "get": "DB_SECURE", "value": false }
+    }
+}

@@ -1,0 +1,15 @@
+.DS_Store
+node_modules/
+test.js
+public/support/*
+public/leaves/*
+public/images/*
+public/user_images/*
+public/products/*
+public/transactions/*
+public/chat_files
+public/upload_images
+.env
+logs/*
+
+package-lock.json

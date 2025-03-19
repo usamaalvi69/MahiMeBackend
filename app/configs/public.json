@@ -1,0 +1,8 @@
+{
+    "images":{
+        "link": "/public/images"
+    },
+    "users":{
+        "link": "/public/user_images"
+    }
+}

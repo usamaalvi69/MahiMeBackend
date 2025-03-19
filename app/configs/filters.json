@@ -1,0 +1,7 @@
+{
+    "limit": {
+        "name": "Limit",
+        "link": "app.filters.response.limit",
+        "enabled": true
+    }
+}

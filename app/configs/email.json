@@ -1,0 +1,10 @@
+{
+    "email_client": { "get": "EMAIL_CLIENT", "value": "smtp" },
+    "email_host": { "get": "EMAIL_HOST", "value": "smtp.mailtrap.io" },
+    "email_port": { "get": "EMAIL_PORT", "value": 2525 },
+    "email_username": { "get": "EMAIL_USERNAME", "value": "" },
+    "email_password": { "get": "EMAIL_PASSWORD", "value": "" },
+    "email_sender": { "get": "EMAIL_SENDER", "value": "apps@kwd.co.nz" },
+    "email_sender_name": { "get": "EMAIL_SENDER_NAME", "value": "" },
+    "email_key": { "get": "EMAIL_KEY", "value": "" }
+}
